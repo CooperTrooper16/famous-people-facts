@@ -1,0 +1,41 @@
+body {
+    border-style:solid;
+    border-color:limegreen;
+    border-width:thick;
+    background-color:Orange;
+}
+li a {
+    display:block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration:underline;
+}
+
+li {
+    text-align:left;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+li a:hover {
+    background-color: #000080;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: -webkit-sticky; 
+    position: sticky; /* Safari */
+    top: 0;
+}
+p {
+    color:yellow;
+    text-align:center;
+}
+h1 {
+    text-align:right;
+}
